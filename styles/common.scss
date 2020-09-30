@@ -1,0 +1,46 @@
+::selection {
+  color: white;
+  background-color: brown;
+}
+
+::-moz-selection {
+  color: white;
+  background-color: brown;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #394655;
+  background: #fffef7;
+}
+
+.container {
+  margin: 40px 32%;
+  blockquote {
+    margin: 16px 0;
+    padding: 0 1em;
+    color: brown;
+    border-left: 0.25em solid;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    margin: 32px 14%;
+  }
+}
