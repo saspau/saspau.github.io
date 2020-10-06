@@ -12,6 +12,6 @@ module.exports = eleventyConfig => {
 
   return {
     // Use liquid in html templates
-    htmlTemplateEngine: "liquid"
+    htmlTemplateEngine: "njk"
   };
 };

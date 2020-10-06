@@ -1,5 +1,5 @@
 ---
-layout: homepage.liquid
+layout: homepage.njk
 title: Horsin' Around
 ---
 
