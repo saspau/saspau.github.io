@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.post-container {
+  margin-top: 32px; }
+  .post-container header {
+    margin-bottom: 16px; }
+    .post-container header .post-date {
+      font-size: 14px;
+      color: #a8a8a8; }
+  .post-container .content {
+    line-height: 22px; }
+    .post-container .content h2 {
+      margin: 24px 0 8px;
+      font-weight: normal;
+      line-height: 36px; }
+    .post-container .content h3 {
+      margin: 12px 0;
+      line-height: 28px; }
+    .post-container .content p {
+      margin-bottom: 10px; }
+    .post-container .content ul {
+      list-style-type: none;
+      margin-left: 18px; }
+      .post-container .content ul > li::before {
+        content: "–";
+        /* en dash here */
+        position: absolute;
+        margin-left: -1.1em; }
+  .post-container .back-link {
+    margin: 16px 0 24px 0; }
+  .post-container code:not([class*="language-"]) {
+    padding: 0.2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd; }

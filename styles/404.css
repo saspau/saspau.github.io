@@ -1,0 +1,20 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #394655;
+  background: #fffef7; }
+  body .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    body .container img {
+      width: 650px; }
+    body .container .back-link {
+      font-size: 24px;
+      margin-top: 8px; }
+      body .container .back-link a {
+        text-decoration: none;
+        color: brown; }
+        body .container .back-link a:hover {
+          cursor: pointer;
+          text-decoration: underline; }
