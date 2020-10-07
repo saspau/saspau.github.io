@@ -24,14 +24,15 @@ body {
   display: table;
   table-layout: fixed;
   width: 100%;
-  height: 100%; }
+  height: 100vh; }
 
 .pane {
-  display: table-cell; }
+  display: table-cell;
+  vertical-align: top; }
 
 .left.pane {
   background-color: #e1ede6;
-  width: 25%; }
+  width: 20%; }
 
 .center.pane {
   background-color: #f2f2f2; }
@@ -56,3 +57,16 @@ body {
   width: 100%;
   height: 100%;
   overflow: auto; }
+
+a:link, a:visited {
+  color: green;
+  text-decoration: none; }
+
+a:hover {
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline; }
+
+a:active {
+  color: darkcyan;
+  font-weight: bold; }
