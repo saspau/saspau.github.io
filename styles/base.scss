@@ -81,10 +81,25 @@ body {
     width: 25%;
 }
 
+.right-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.top-content,
+.bottom-content {
+    padding-left: 10px;
+    padding-right: 25px;
+} 
+
 .top-content {
-    width: 100%;
+    width: auto;
     height: 100%;
     overflow: auto; // allow for independent scrolling
+}
+
+.bottom-content {
+    text-align: right;
 }
 
 a:link, a:visited {

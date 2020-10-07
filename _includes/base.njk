@@ -36,19 +36,22 @@
                             </div>
                         </div>
                         <div class="bottom">
-                            {% block bottom %}
-                                some cool art or something
-                            {% endblock %}
+                            <div class="bottom-content">
+                                {% block bottom %}
+                                    some cool art or something
+                                {% endblock %}
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="right pane">
-                    {% block right %}
-                        notes & words & phrases & scribbles & snippets & poems
-                    {% endblock %}
+                    <div class="right-content">
+                        {% block right %}
+                            notes & words & phrases & scribbles & snippets & poems
+                        {% endblock %}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
   </body>
 </html>
