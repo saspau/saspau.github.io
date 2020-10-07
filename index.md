@@ -1,5 +1,5 @@
 ---
-layout: homepage.njk
+layout: base.njk
 title: Horsin' Around
 ---
 
