@@ -41,6 +41,22 @@ body {
     width: 20%;
 }
 
+.vert-border {
+    border-color: darkolivegreen;
+    border-left-style: outset;
+    border-right-style: outset;
+    float: right;
+    width: 2px;
+    height: 100vh;
+    top: 0;
+    // display: inline-block;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+}
+
 .center.pane {
     background-color: #f2f2f2;//lightblue;
 }

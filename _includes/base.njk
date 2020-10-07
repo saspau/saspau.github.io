@@ -13,16 +13,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <script src="/../../js/scripts.js"></script>
-    <div class="container">
       {# {{ content | safe }} #}
         <div class="wrapper">
             <div class="inner-wrapper">
                 <div class="left pane">
-                    {% block left %}
-                    {% for link in collections.left_nav %}
-                        <ul><a href="{{ link.url }}">{{ link.data.link_name }}</a></ul>
-                    {% endfor %}
-                    {% endblock %}
+                    <div class="vert-border"></div>
+                    <div class="left-content">
+                        {% block left %}
+                        {% for link in collections.left_nav %}
+                            <ul><a href="{{ link.url }}">{{ link.data.link_name }}</a></ul>
+                        {% endfor %}
+                        {% endblock %}
+                    </div>
                 </div>
                 <div class="center pane">
                     <div class="inner">
