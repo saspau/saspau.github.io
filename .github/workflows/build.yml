@@ -16,10 +16,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Use Node.js $NaN
+      - name: Use Node.js v10.16.0
         uses: actions/setup-node@v1
         with:
-          node-version: $NaN
+          node-version: '12.x'
 
       - name: Install dependencies & build
         run: |
