@@ -26,18 +26,19 @@ body {
     display: table;
     table-layout: fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     // padding-left: 10px;
     // padding-right: 10px;
 }
 
 .pane {
     display: table-cell;
+    vertical-align:top;
 }
 
 .left.pane {
     background-color: #e1ede6;//olivedrab;
-    width: 25%;
+    width: 20%;
 }
 
 .center.pane {
@@ -69,3 +70,19 @@ body {
     height: 100%;
     overflow: auto; // allow for independent scrolling
 }
+
+a:link, a:visited {
+    color:green;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-style:italic;
+    font-weight: normal;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: darkcyan;
+    font-weight: bold;
+  }
