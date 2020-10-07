@@ -17,3 +17,5 @@ last_modified: 2020-10-07
 - [ ] how do we want to organize/categorize/tag our content?
 - [ ] probably going to have to figure out scrolling with the side bars? alos figure out weird overflow issues??
 - [ ] can the `last_modified` metadata attribute be updated programmatically?
+- [ ] make it accessible
+- [ ] make it mobile-friendly
