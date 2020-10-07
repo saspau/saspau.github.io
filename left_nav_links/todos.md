@@ -16,7 +16,7 @@ last_modified: 2020-10-07
 - [ ] are the paths correct for our stylesheets and scripts? (`/../../` seems kinda weird but idk)
 - [ ] figure out how padding works with these weird table cell things
 - [ ] how do we want to organize/categorize/tag our content?
-- [ ] probably going to have to figure out scrolling with the side bars? alos figure out weird overflow issues??
+- [ ] probably going to have to figure out scrolling with the side bars? also figure out weird overflow issues??
 - [ ] can the `last_modified` metadata attribute be updated programmatically?
-- [ ] make it accessible
-- [ ] make it mobile-friendly
+- [ ] make me accessible
+- [ ] make me mobile-friendly
