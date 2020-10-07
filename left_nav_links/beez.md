@@ -1,11 +1,13 @@
 ---
-layout: basic.njk
+layout: base.njk
 link_name: jerry
 title: Bee Movie
 tags: left_nav
+date: 2020-10-06
+last_modified: 2020-10-07
 ---
 
-## Bee Movie
+## Bee Movie :bee:
 
 According to all known laws
 of aviation,

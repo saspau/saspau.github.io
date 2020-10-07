@@ -1,6 +1,9 @@
 ---
 date: "2010-01-01"
 title: Free Churro
+link_name: free churro
+tags: left_nav
+layout: blogpost.njk
 ---
 
 > [Free churro](https://www.youtube.com/watch?v=GUkWn6ETezw)
