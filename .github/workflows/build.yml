@@ -31,4 +31,4 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          cname: www.sleepin.space
+          cname: sleepin.space
