@@ -1,7 +1,15 @@
 html,
 body {
   font-family: 'Courier New', Courier, monospace;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none; }
 
 .wrapper {
   position: absolute;
@@ -36,8 +44,8 @@ body {
   background-color: #f2f2f2; }
 
 .center.pane .inner .bottom {
-  background-color: #f2f2f2;
-  height: 200px;
+  background-color: #ffffff;
+  height: 100%;
   width: 100%; }
 
 .right.pane {
