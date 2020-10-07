@@ -24,6 +24,8 @@ $(function() {
   
     function setWidthInPercent(element) {
         var percentageWidth = (element.width() / element.parent().width()) * 100;
+        if (percentageWidth >= 50) percentageWidth = 48;
+        else if (percentageWidth <= 5) percentageWidth = 7;
         element.width(percentageWidth + '%');
     }
   });

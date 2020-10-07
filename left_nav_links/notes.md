@@ -1,6 +1,6 @@
 ---
 layout: notes_dir.njk
-link_name: 
+link_name: random stuff
 title: Our Notes
 ---
 

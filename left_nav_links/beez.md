@@ -2,6 +2,7 @@
 layout: basic.njk
 link_name: jerry
 title: Bee Movie
+tags: left_nav
 ---
 
 ## Bee Movie
