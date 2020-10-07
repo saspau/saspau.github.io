@@ -9,6 +9,7 @@ last_modified: 2020-10-07
 
 ### lots of things to work on!!
 
+- [ ] styling
 - [ ] make the center pane resizing work (have a default height for the bottom that still allow full resizing functionality)
 - [ ] make the "notes" (right) side bar templates
 - [ ] do we want some cute lil icon in the title?
