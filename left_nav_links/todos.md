@@ -12,6 +12,8 @@ last_modified: 2020-10-07
 - [ ] styling
 - [ ] make the center pane resizing work (have a default height for the bottom that still allow full resizing functionality)
 - [ ] make the "notes" (right) side bar templates
+- [ ] prevent negative resizing
+- [ ] fix weird disappearance/reappearance of left nav when resizing small
 - [ ] do we want some cute lil icon in the title?
 - [ ] are the paths correct for our stylesheets and scripts? (`/../../` seems kinda weird but idk)
 - [ ] figure out how padding works with these weird table cell things
